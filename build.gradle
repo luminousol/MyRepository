@@ -24,7 +24,7 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
-bootJar {
+jar {
 	enabled = false
 }
 
